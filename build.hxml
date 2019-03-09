@@ -1,0 +1,16 @@
+-cp src
+-cp tests
+#-dce full
+#-D js-es5
+-D analyzer-optimize
+-lib utest
+-main RunAll
+# -neko runall.n
+# -cmd neko runall.n
+#-js plo.js
+#-cmd node plo.js
+#-x RunAll
+#--no-traces
+#-php www
+#-cmd open http://teststrings.local
+--interp
