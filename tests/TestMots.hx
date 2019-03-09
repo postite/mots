@@ -17,8 +17,8 @@ class TestMots implements utest.ITest {
 		Assert.equals("Caapture_d_ecra_n_2019_02u_04_a_17_27_05_pngCapatuaereee_d_ecraan_2019_02_04_a_17_27_05_png", str);
 	}
 
-    public function testundercleanFile(){
-        var str = Mots.undercleanFile(fileName);
+    public function testcleanFile(){
+        var str = Mots.cleanFile(fileName);
 trace( "strrrr"+str);
 		Assert.equals("CaaptureDEcran201902u04A172705PngCapatuaereeeDEcraan20190204A172705.png", str);
         Assert.equals("png",Mots.getExtension(str));

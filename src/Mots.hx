@@ -8,7 +8,7 @@ class Mots {
 		return str;
 	}
 
-	public static function undercleanFile(str:String):String {
+	public static function cleanFile(str:String):String {
 		var extension = haxe.io.Path.extension(str);
 		str = haxe.io.Path.withoutExtension(str);
     str=stripEmoj(str);
