@@ -10,7 +10,6 @@ class Diactrics {
     var chars = toArray(input),
     //var chars=input.split(''),
         char;
-        trace( chars);
     for(i in 0...chars.length) {
       char = map.get(chars[i]);
       if(null != char)
