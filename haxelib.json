@@ -1,0 +1,14 @@
+{
+    "name": "mots",
+    "url" : "https://github.com/postite/mots/",
+    "license": "MIT",
+    "tags": ["string",],
+    "description": "string utisl.",
+    "version": "0.0.1",
+    "classPath": "src/",
+    "releasenote": "let's go like this",
+    "contributors": ["postite"],
+    "dependencies": {
+    
+    }
+  }
