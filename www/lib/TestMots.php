@@ -28,14 +28,14 @@ class TestMots implements ITest {
 	 * @return object
 	 */
 	public function __initializeUtest__ () {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/haxelib/src/utest/utils/TestBuilder.hx:55: lines 55-56
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/utils/TestBuilder.hx:55: lines 55-56
 		$_gthis = $this;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/haxelib/src/utest/utils/TestBuilder.hx:72: characters 25-28
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/utils/TestBuilder.hx:72: characters 25-28
 		$init = new HxAnon([
 			"tests" => new \Array_hx(),
 			"accessories" => new HxAnon(),
 		]);
-		#tests/TestMots.hx:12: lines 12-15
+		#tests/TestMots.hx:10: lines 10-13
 		$_this = $init->tests;
 		$_this->arr[$_this->length] = new HxAnon([
 			"name" => "testtest",
@@ -46,7 +46,7 @@ class TestMots implements ITest {
 		]);
 		++$_this->length;
 
-		#tests/TestMots.hx:17: lines 17-20
+		#tests/TestMots.hx:15: lines 15-18
 		$_this1 = $init->tests;
 		$_this1->arr[$_this1->length] = new HxAnon([
 			"name" => "testUnderClean",
@@ -57,18 +57,18 @@ class TestMots implements ITest {
 		]);
 		++$_this1->length;
 
-		#tests/TestMots.hx:22: lines 22-27
+		#tests/TestMots.hx:20: lines 20-25
 		$_this2 = $init->tests;
 		$_this2->arr[$_this2->length] = new HxAnon([
-			"name" => "testundercleanFile",
+			"name" => "testcleanFile",
 			"execute" => function ()  use (&$_gthis) {
-				$_gthis->testundercleanFile();
+				$_gthis->testcleanFile();
 				return Async::getResolved();
 			},
 		]);
 		++$_this2->length;
 
-		#tests/TestMots.hx:28: lines 28-31
+		#tests/TestMots.hx:26: lines 26-29
 		$_this3 = $init->tests;
 		$_this3->arr[$_this3->length] = new HxAnon([
 			"name" => "testCleanAccents",
@@ -79,7 +79,7 @@ class TestMots implements ITest {
 		]);
 		++$_this3->length;
 
-		#tests/TestMots.hx:34: lines 34-38
+		#tests/TestMots.hx:32: lines 32-36
 		$_this4 = $init->tests;
 		$_this4->arr[$_this4->length] = new HxAnon([
 			"name" => "testCapitalize",
@@ -90,7 +90,7 @@ class TestMots implements ITest {
 		]);
 		++$_this4->length;
 
-		#tests/TestMots.hx:40: lines 40-44
+		#tests/TestMots.hx:38: lines 38-42
 		$_this5 = $init->tests;
 		$_this5->arr[$_this5->length] = new HxAnon([
 			"name" => "testCleanPath",
@@ -101,7 +101,7 @@ class TestMots implements ITest {
 		]);
 		++$_this5->length;
 
-		#tests/TestMots.hx:46: lines 46-49
+		#tests/TestMots.hx:44: lines 44-47
 		$_this6 = $init->tests;
 		$_this6->arr[$_this6->length] = new HxAnon([
 			"name" => "testEndWith",
@@ -112,7 +112,7 @@ class TestMots implements ITest {
 		]);
 		++$_this6->length;
 
-		#tests/TestMots.hx:56: lines 56-61
+		#tests/TestMots.hx:54: lines 54-59
 		$_this7 = $init->tests;
 		$_this7->arr[$_this7->length] = new HxAnon([
 			"name" => "testCamel",
@@ -123,7 +123,7 @@ class TestMots implements ITest {
 		]);
 		++$_this7->length;
 
-		#tests/TestMots.hx:63: lines 63-66
+		#tests/TestMots.hx:61: lines 61-64
 		$_this8 = $init->tests;
 		$_this8->arr[$_this8->length] = new HxAnon([
 			"name" => "testContain",
@@ -134,7 +134,7 @@ class TestMots implements ITest {
 		]);
 		++$_this8->length;
 
-		#tests/TestMots.hx:68: lines 68-76
+		#tests/TestMots.hx:66: lines 66-74
 		$_this9 = $init->tests;
 		$_this9->arr[$_this9->length] = new HxAnon([
 			"name" => "testExtension",
@@ -145,7 +145,7 @@ class TestMots implements ITest {
 		]);
 		++$_this9->length;
 
-		#tests/TestMots.hx:78: lines 78-83
+		#tests/TestMots.hx:76: lines 76-81
 		$_this10 = $init->tests;
 		$_this10->arr[$_this10->length] = new HxAnon([
 			"name" => "testunCamel",
@@ -156,7 +156,7 @@ class TestMots implements ITest {
 		]);
 		++$_this10->length;
 
-		#tests/TestMots.hx:87: lines 87-91
+		#tests/TestMots.hx:85: lines 85-89
 		$_this11 = $init->tests;
 		$_this11->arr[$_this11->length] = new HxAnon([
 			"name" => "testMatchEmoj",
@@ -167,7 +167,7 @@ class TestMots implements ITest {
 		]);
 		++$_this11->length;
 
-		#tests/TestMots.hx:93: lines 93-97
+		#tests/TestMots.hx:91: lines 91-95
 		$_this12 = $init->tests;
 		$_this12->arr[$_this12->length] = new HxAnon([
 			"name" => "testStripEmoj",
@@ -178,22 +178,46 @@ class TestMots implements ITest {
 		]);
 		++$_this12->length;
 
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/haxelib/src/utest/utils/TestBuilder.hx:52: characters 24-35
+		#tests/TestMots.hx:98: lines 98-114
+		$_this13 = $init->tests;
+		$_this13->arr[$_this13->length] = new HxAnon([
+			"name" => "testGuid",
+			"execute" => function ()  use (&$_gthis) {
+				$_gthis->testGuid();
+				return Async::getResolved();
+			},
+		]);
+		++$_this13->length;
+
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/utils/TestBuilder.hx:52: characters 24-35
 		return $init;
 	}
 
 	/**
 	 * @return void
 	 */
+	public function firstWord () {
+		#tests/TestMots.hx:51: characters 5-61
+		Assert::equals("je", \Mots::firstWord("je suis une vache"), null, new HxAnon([
+			"fileName" => "tests/TestMots.hx",
+			"lineNumber" => 51,
+			"className" => "TestMots",
+			"methodName" => "firstWord",
+		]));
+	}
+
+	/**
+	 * @return void
+	 */
 	public function testCamel () {
-		#tests/TestMots.hx:58: characters 6-35
+		#tests/TestMots.hx:56: characters 6-35
 		$str = "je suis une vache";
-		#tests/TestMots.hx:59: characters 6-28
+		#tests/TestMots.hx:57: characters 6-28
 		$str = \Mots::camelize("je suis une vache");
-		#tests/TestMots.hx:60: characters 6-41
+		#tests/TestMots.hx:58: characters 6-41
 		Assert::equals("jeSuisUneVache", $str, null, new HxAnon([
 			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 60,
+			"lineNumber" => 58,
 			"className" => "TestMots",
 			"methodName" => "testCamel",
 		]));
@@ -203,10 +227,10 @@ class TestMots implements ITest {
 	 * @return void
 	 */
 	public function testCapitalize () {
-		#tests/TestMots.hx:37: characters 8-51
+		#tests/TestMots.hx:35: characters 8-51
 		Assert::equals("David", \Mots::capitalize("david"), null, new HxAnon([
 			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 37,
+			"lineNumber" => 35,
 			"className" => "TestMots",
 			"methodName" => "testCapitalize",
 		]));
@@ -216,10 +240,10 @@ class TestMots implements ITest {
 	 * @return void
 	 */
 	public function testCleanAccents () {
-		#tests/TestMots.hx:30: characters 3-116
+		#tests/TestMots.hx:28: characters 3-116
 		Assert::equals("Caapture d’ecra🐠n 2019-02u-04 a 17.27.05.pngCapatuaereee d’ecraan 2019-02-04 a 17.27.05.png", \Mots::cleanAccents(TestMots::$fileName), null, new HxAnon([
 			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 30,
+			"lineNumber" => 28,
 			"className" => "TestMots",
 			"methodName" => "testCleanAccents",
 		]));
@@ -229,10 +253,10 @@ class TestMots implements ITest {
 	 * @return void
 	 */
 	public function testCleanPath () {
-		#tests/TestMots.hx:43: characters 8-77
+		#tests/TestMots.hx:41: characters 8-77
 		Assert::equals("../david/Zelote/magali/lupin.jpg", \Mots::cleanPath("..//david/Zelote//magali/lupin.jpg//"), null, new HxAnon([
 			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 43,
+			"lineNumber" => 41,
 			"className" => "TestMots",
 			"methodName" => "testCleanPath",
 		]));
@@ -242,10 +266,10 @@ class TestMots implements ITest {
 	 * @return void
 	 */
 	public function testContain () {
-		#tests/TestMots.hx:65: characters 10-53
+		#tests/TestMots.hx:63: characters 10-53
 		Assert::isTrue(HxString::indexOf("bonjour", "j") >= 0, null, new HxAnon([
 			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 65,
+			"lineNumber" => 63,
 			"className" => "TestMots",
 			"methodName" => "testContain",
 		]));
@@ -255,10 +279,10 @@ class TestMots implements ITest {
 	 * @return void
 	 */
 	public function testEndWith () {
-		#tests/TestMots.hx:48: characters 8-48
+		#tests/TestMots.hx:46: characters 8-48
 		Assert::isTrue(\Mots::endsWith("pur", "r"), null, new HxAnon([
 			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 48,
+			"lineNumber" => 46,
 			"className" => "TestMots",
 			"methodName" => "testEndWith",
 		]));
@@ -268,7 +292,19 @@ class TestMots implements ITest {
 	 * @return void
 	 */
 	public function testExtension () {
-		#tests/TestMots.hx:70: lines 70-75
+		#tests/TestMots.hx:68: lines 68-73
+		$f = function ($n) {
+			#tests/TestMots.hx:70: characters 17-70
+			Assert::equals(Path::extension($n), \Mots::getExtension($n), null, new HxAnon([
+				"fileName" => "tests/TestMots.hx",
+				"lineNumber" => 70,
+				"className" => "TestMots",
+				"methodName" => "testExtension",
+			]));
+			#tests/TestMots.hx:71: characters 17-28
+			return null;
+		};
+		#tests/TestMots.hx:68: lines 68-73
 		$result = [];
 		$collection = (\Array_hx::wrap([
 			"one.png",
@@ -277,16 +313,7 @@ class TestMots implements ITest {
 			"four.jpeg",
 		]))->arr;
 		foreach ($collection as $key => $value) {
-			#tests/TestMots.hx:72: characters 17-70
-			Assert::equals(Path::extension($value), \Mots::getExtension($value), null, new HxAnon([
-				"fileName" => "tests/TestMots.hx",
-				"lineNumber" => 72,
-				"className" => "TestMots",
-				"methodName" => "testExtension",
-			]));
-			#tests/TestMots.hx:70: lines 70-75
-			$result[] = null;
-
+			$result[] = $f($value);
 		}
 
 		\Array_hx::wrap($result);
@@ -295,11 +322,101 @@ class TestMots implements ITest {
 	/**
 	 * @return void
 	 */
+	public function testGuid () {
+		#tests/TestMots.hx:99: characters 9-18
+		$p = new \Array_hx();
+		#tests/TestMots.hx:101: characters 13-36
+		$x = \Guid::generate();
+		$p->arr[$p->length] = $x;
+		++$p->length;
+
+		$x1 = \Guid::generate();
+		$p->arr[$p->length] = $x1;
+		++$p->length;
+
+		$x2 = \Guid::generate();
+		$p->arr[$p->length] = $x2;
+		++$p->length;
+
+		$x3 = \Guid::generate();
+		$p->arr[$p->length] = $x3;
+		++$p->length;
+
+		$x4 = \Guid::generate();
+		$p->arr[$p->length] = $x4;
+		++$p->length;
+
+		$x5 = \Guid::generate();
+		$p->arr[$p->length] = $x5;
+		++$p->length;
+
+		$x6 = \Guid::generate();
+		$p->arr[$p->length] = $x6;
+		++$p->length;
+
+		$x7 = \Guid::generate();
+		$p->arr[$p->length] = $x7;
+		++$p->length;
+
+		$x8 = \Guid::generate();
+		$p->arr[$p->length] = $x8;
+		++$p->length;
+
+		$x9 = \Guid::generate();
+		$p->arr[$p->length] = $x9;
+		++$p->length;
+
+
+		#tests/TestMots.hx:103: lines 103-112
+		$i = 0;
+		$_g = new \Array_hx();
+		$x10 = $p->iterator();
+		while ($x10->hasNext()) {
+			$x11 = $x10->next();
+			$i1 = $i++;
+			#tests/TestMots.hx:104: lines 104-110
+			$_g1 = 0;
+			$_g11 = $p->length;
+			while ($_g1 < $_g11) {
+				$m = $_g1++;
+				#tests/TestMots.hx:105: lines 105-109
+				if ($m !== $i1) {
+					#tests/TestMots.hx:106: characters 17-29
+					$gu = ($p->arr[$m] ?? null);
+					#tests/TestMots.hx:107: characters 17-22
+					(Log::$trace)("n=" . ($x11??'null') . " gu=" . ($gu??'null') . " " . ($i1??'null'), new HxAnon([
+						"fileName" => "tests/TestMots.hx",
+						"lineNumber" => 107,
+						"className" => "TestMots",
+						"methodName" => "testGuid",
+					]));
+					#tests/TestMots.hx:108: characters 17-37
+					Assert::isTrue($gu !== $x11, null, new HxAnon([
+						"fileName" => "tests/TestMots.hx",
+						"lineNumber" => 108,
+						"className" => "TestMots",
+						"methodName" => "testGuid",
+					]));
+				}
+			}
+
+			#tests/TestMots.hx:103: lines 103-112
+			$_g->arr[$_g->length] = $x11;
+			++$_g->length;
+		}
+
+
+
+	}
+
+	/**
+	 * @return void
+	 */
 	public function testMatchEmoj () {
-		#tests/TestMots.hx:90: characters 9-45
+		#tests/TestMots.hx:88: characters 9-45
 		Assert::isTrue(\Mots::matchEmoj("👽😬hallowe🐬en"), null, new HxAnon([
 			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 90,
+			"lineNumber" => 88,
 			"className" => "TestMots",
 			"methodName" => "testMatchEmoj",
 		]));
@@ -309,10 +426,10 @@ class TestMots implements ITest {
 	 * @return void
 	 */
 	public function testStripEmoj () {
-		#tests/TestMots.hx:96: characters 8-56
+		#tests/TestMots.hx:94: characters 8-56
 		Assert::equals("halloween", \Mots::stripEmoj("👽😬hallowe🐬en"), null, new HxAnon([
 			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 96,
+			"lineNumber" => 94,
 			"className" => "TestMots",
 			"methodName" => "testStripEmoj",
 		]));
@@ -322,10 +439,10 @@ class TestMots implements ITest {
 	 * @return void
 	 */
 	public function testUnderClean () {
-		#tests/TestMots.hx:19: characters 3-116
+		#tests/TestMots.hx:17: characters 3-116
 		Assert::equals("Caapture_d_ecra_n_2019_02u_04_a_17_27_05_pngCapatuaereee_d_ecraan_2019_02_04_a_17_27_05_png", \Mots::underclean(TestMots::$fileName), null, new HxAnon([
 			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 19,
+			"lineNumber" => 17,
 			"className" => "TestMots",
 			"methodName" => "testUnderClean",
 		]));
@@ -334,18 +451,47 @@ class TestMots implements ITest {
 	/**
 	 * @return void
 	 */
+	public function testcleanFile () {
+		#tests/TestMots.hx:21: characters 9-44
+		$str = \Mots::cleanFile(TestMots::$fileName);
+		#tests/TestMots.hx:22: characters 1-6
+		(Log::$trace)("strrrr" . ($str??'null'), new HxAnon([
+			"fileName" => "tests/TestMots.hx",
+			"lineNumber" => 22,
+			"className" => "TestMots",
+			"methodName" => "testcleanFile",
+		]));
+		#tests/TestMots.hx:23: characters 3-96
+		Assert::equals("CaaptureDEcran201902u04A172705PngCapatuaereeeDEcraan20190204A172705.png", $str, null, new HxAnon([
+			"fileName" => "tests/TestMots.hx",
+			"lineNumber" => 23,
+			"className" => "TestMots",
+			"methodName" => "testcleanFile",
+		]));
+		#tests/TestMots.hx:24: characters 9-52
+		Assert::equals("png", \Mots::getExtension($str), null, new HxAnon([
+			"fileName" => "tests/TestMots.hx",
+			"lineNumber" => 24,
+			"className" => "TestMots",
+			"methodName" => "testcleanFile",
+		]));
+	}
+
+	/**
+	 * @return void
+	 */
 	public function testtest () {
-		#tests/TestMots.hx:13: characters 3-8
+		#tests/TestMots.hx:11: characters 3-8
 		(Log::$trace)("yo", new HxAnon([
 			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 13,
+			"lineNumber" => 11,
 			"className" => "TestMots",
 			"methodName" => "testtest",
 		]));
-		#tests/TestMots.hx:14: characters 3-30
+		#tests/TestMots.hx:12: characters 3-30
 		Assert::isTrue(true, null, new HxAnon([
 			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 14,
+			"lineNumber" => 12,
 			"className" => "TestMots",
 			"methodName" => "testtest",
 		]));
@@ -355,45 +501,16 @@ class TestMots implements ITest {
 	 * @return void
 	 */
 	public function testunCamel () {
-		#tests/TestMots.hx:80: characters 8-34
+		#tests/TestMots.hx:78: characters 8-34
 		$str = "jeSuisUneVache";
-		#tests/TestMots.hx:81: characters 9-30
+		#tests/TestMots.hx:79: characters 9-30
 		$str = \Mots::unCamel("jeSuisUneVache");
-		#tests/TestMots.hx:82: characters 9-47
+		#tests/TestMots.hx:80: characters 9-47
 		Assert::equals("je suis une vache", $str, null, new HxAnon([
 			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 82,
+			"lineNumber" => 80,
 			"className" => "TestMots",
 			"methodName" => "testunCamel",
-		]));
-	}
-
-	/**
-	 * @return void
-	 */
-	public function testundercleanFile () {
-		#tests/TestMots.hx:23: characters 9-49
-		$str = \Mots::undercleanFile(TestMots::$fileName);
-		#tests/TestMots.hx:24: characters 1-6
-		(Log::$trace)("strrrr" . ($str??'null'), new HxAnon([
-			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 24,
-			"className" => "TestMots",
-			"methodName" => "testundercleanFile",
-		]));
-		#tests/TestMots.hx:25: characters 3-96
-		Assert::equals("CaaptureDEcran201902u04A172705PngCapatuaereeeDEcraan20190204A172705.png", $str, null, new HxAnon([
-			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 25,
-			"className" => "TestMots",
-			"methodName" => "testundercleanFile",
-		]));
-		#tests/TestMots.hx:26: characters 9-52
-		Assert::equals("png", \Mots::getExtension($str), null, new HxAnon([
-			"fileName" => "tests/TestMots.hx",
-			"lineNumber" => 26,
-			"className" => "TestMots",
-			"methodName" => "testundercleanFile",
 		]));
 	}
 }

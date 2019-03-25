@@ -1,5 +1,3 @@
-import haxe.DynamicAccess;
-
 class Log{
 
 
@@ -7,6 +5,4 @@ class Log{
         trace('${pos.className} ${pos.lineNumber} $with: $msg');
         return msg;
     }
-
-    
 }

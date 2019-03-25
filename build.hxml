@@ -11,6 +11,6 @@
 #-cmd node plo.js
 #-x RunAll
 #--no-traces
-#-php www
+-php www
 #-cmd open http://teststrings.local
---interp
+#--interp

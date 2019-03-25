@@ -8,8 +8,9 @@
     		var runner = new Runner();
     		 runner.addCase(new TestMots());
     
-    		//Report.create(runner); // breaks
-    		 new utest.ui.text.PrintReport(runner); //ok
+    		
+			Report.create(runner); // breaks
+    		//new utest.ui.text.PrintReport(runner); //ok
             //new utest.ui.text.HtmlReport(runner, true);
     		runner.run();
     	}

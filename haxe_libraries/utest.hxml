@@ -1,4 +1,4 @@
 -D utest=1.9.5
-# @install: lix --silent download "gh://github.com/haxe-utest/utest#aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845" into utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845
--cp ${HAXE_LIBCACHE}/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src
+# @install: lix --silent download "gh://github.com/haxe-utest/utest#031e6d47bf35ae55654eef5bd4dac8c07986ecfa" into utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa
+-cp ${HAXE_LIBCACHE}/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src
 --macro utest.utils.Macro.checkHaxe()
