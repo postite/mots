@@ -23,24 +23,24 @@ class PrintReport extends PlainTextReport {
 	 * @return void
 	 */
 	public function __construct ($runner, $useTrace = false) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:16: lines 16-30
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:16: lines 16-30
 		if ($useTrace === null) {
 			$useTrace = false;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:17: characters 5-29
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:17: characters 5-29
 		$this->useTrace = $useTrace;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:18: characters 5-28
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:18: characters 5-28
 		parent::__construct($runner, Boot::getInstanceClosure($this, '_handler'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:20: lines 20-29
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:20: lines 20-29
 		if (0 === strncasecmp(PHP_SAPI, "cli", 3)) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:24: characters 7-21
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:24: characters 7-21
 			$this->newline = "\x0A";
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:25: characters 7-21
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:25: characters 7-21
 			$this->indent = "  ";
 		} else {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:27: characters 7-23
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:27: characters 7-23
 			$this->newline = "<br>";
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:28: characters 7-31
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:28: characters 7-31
 			$this->indent = "&nbsp;&nbsp;";
 		}
 	}
@@ -51,12 +51,12 @@ class PrintReport extends PlainTextReport {
 	 * @return void
 	 */
 	public function _handler ($report) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:33: lines 33-36
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:33: lines 33-36
 		if ($this->useTrace) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:34: characters 7-34
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:34: characters 7-34
 			$this->_trace($report->getResults());
 		} else {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:36: characters 7-34
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:36: characters 7-34
 			$this->_print($report->getResults());
 		}
 	}
@@ -67,7 +67,7 @@ class PrintReport extends PlainTextReport {
 	 * @return void
 	 */
 	public function _print ($s) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:56: characters 5-17
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:56: characters 5-17
 		echo(\Std::string($s));
 	}
 
@@ -77,11 +77,11 @@ class PrintReport extends PlainTextReport {
 	 * @return void
 	 */
 	public function _trace ($s) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:50: characters 5-45
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:50: characters 5-45
 		$s = \StringTools::replace($s, "  ", $this->indent);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:51: characters 5-46
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:51: characters 5-46
 		$s = \StringTools::replace($s, "\x0A", $this->newline);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/text/PrintReport.hx:52: characters 5-22
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/text/PrintReport.hx:52: characters 5-22
 		(Log::$trace)($s, new HxAnon([
 			"fileName" => "utest/ui/text/PrintReport.hx",
 			"lineNumber" => 52,

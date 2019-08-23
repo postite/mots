@@ -23,33 +23,33 @@ class Report {
 	 * @return IReport
 	 */
 	static public function create ($runner, $displaySuccessResults = null, $headerDisplayMode = null) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/Report.hx:15: characters 5-35
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/Report.hx:15: characters 5-35
 		$report = null;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/Report.hx:21: lines 21-24
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/Report.hx:21: lines 21-24
 		if (!Web::$isModNeko) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/Report.hx:22: characters 7-53
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/Report.hx:22: characters 7-53
 			$report = new PrintReport($runner);
 		} else {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/Report.hx:24: characters 7-58
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/Report.hx:24: characters 7-58
 			$report = new HtmlReport($runner, null, true);
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/Report.hx:40: lines 40-43
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/Report.hx:40: lines 40-43
 		if (null === $displaySuccessResults) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/Report.hx:41: characters 7-126
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/Report.hx:41: characters 7-126
 			$report->displaySuccessResults = SuccessResultsDisplayMode::ShowSuccessResultsWithNoErrors();
 		} else {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/Report.hx:43: characters 7-59
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/Report.hx:43: characters 7-59
 			$report->displaySuccessResults = $displaySuccessResults;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/Report.hx:45: lines 45-48
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/Report.hx:45: lines 45-48
 		if (null === $headerDisplayMode) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/Report.hx:46: characters 7-101
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/Report.hx:46: characters 7-101
 			$report->displayHeader = HeaderDisplayMode::ShowHeaderWithResults();
 		} else {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/Report.hx:48: characters 7-47
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/Report.hx:48: characters 7-47
 			$report->displayHeader = $headerDisplayMode;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/Report.hx:50: characters 5-18
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/Report.hx:50: characters 5-18
 		return $report;
 	}
 }

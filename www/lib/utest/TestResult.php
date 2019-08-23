@@ -50,25 +50,25 @@ class TestResult {
 	 * @return TestResult
 	 */
 	static public function ofFailedSetupClass ($testCase, $assertation) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:33: characters 5-30
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:33: characters 5-30
 		$r = new TestResult();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:34: characters 5-70
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:34: characters 5-70
 		$path = HxString::split(\Type::getClassName(\Type::getClass($testCase)), ".");
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:35: characters 23-33
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:35: characters 23-33
 		if ($path->length > 0) {
 			$path->length--;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:35: characters 5-33
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:35: characters 5-33
 		$r->cls = array_pop($path->arr);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:36: characters 5-37
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:36: characters 5-37
 		$r->pack = $path->join(".");
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:37: characters 5-30
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:37: characters 5-30
 		$r->method = "setup";
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:38: characters 5-33
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:38: characters 5-33
 		$r->assertations = new List_hx();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:39: characters 5-36
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:39: characters 5-36
 		$r->assertations->add($assertation);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:40: characters 5-13
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:40: characters 5-13
 		return $r;
 	}
 
@@ -79,25 +79,25 @@ class TestResult {
 	 * @return TestResult
 	 */
 	static public function ofFailedTeardownClass ($testCase, $assertation) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:44: characters 5-30
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:44: characters 5-30
 		$r = new TestResult();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:45: characters 5-70
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:45: characters 5-70
 		$path = HxString::split(\Type::getClassName(\Type::getClass($testCase)), ".");
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:46: characters 23-33
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:46: characters 23-33
 		if ($path->length > 0) {
 			$path->length--;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:46: characters 5-33
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:46: characters 5-33
 		$r->cls = array_pop($path->arr);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:47: characters 5-37
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:47: characters 5-37
 		$r->pack = $path->join(".");
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:48: characters 5-30
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:48: characters 5-30
 		$r->method = "setup";
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:49: characters 5-33
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:49: characters 5-33
 		$r->assertations = new List_hx();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:50: characters 5-36
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:50: characters 5-36
 		$r->assertations->add($assertation);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:51: characters 5-13
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:51: characters 5-13
 		return $r;
 	}
 
@@ -107,31 +107,31 @@ class TestResult {
 	 * @return TestResult
 	 */
 	static public function ofHandler ($handler) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:18: characters 5-30
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:18: characters 5-30
 		$r = new TestResult();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:19: characters 5-84
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:19: characters 5-84
 		$path = HxString::split(\Type::getClassName(\Type::getClass($handler->fixture->target)), ".");
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:20: characters 23-33
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:20: characters 23-33
 		if ($path->length > 0) {
 			$path->length--;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:20: characters 5-33
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:20: characters 5-33
 		$r->cls = array_pop($path->arr);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:21: characters 5-37
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:21: characters 5-37
 		$r->pack = $path->join(".");
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:22: characters 5-45
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:22: characters 5-45
 		$r->method = $handler->fixture->method;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:23: characters 5-44
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:23: characters 5-44
 		$r->setup = $handler->fixture->setup;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:24: characters 5-49
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:24: characters 5-49
 		$r->setupAsync = $handler->fixture->setupAsync;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:25: characters 5-47
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:25: characters 5-47
 		$r->teardown = $handler->fixture->teardown;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:26: characters 5-52
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:26: characters 5-52
 		$r->teardownAsync = $handler->fixture->teardownAsync;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:27: characters 5-38
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:27: characters 5-38
 		$r->assertations = $handler->results;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:28: characters 5-13
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:28: characters 5-13
 		return $r;
 	}
 
@@ -145,21 +145,21 @@ class TestResult {
 	 * @return bool
 	 */
 	public function allOk () {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:56: characters 14-26
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:56: characters 14-26
 		$head = $this->assertations->h;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:56: lines 56-61
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:56: lines 56-61
 		while ($head !== null) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:57: lines 57-60
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:57: lines 57-60
 			if ($head->item->index === 0) {
-				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:58: characters 26-31
+				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:58: characters 26-31
 				break;
 			} else {
-				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:59: characters 18-30
+				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:59: characters 18-30
 				return false;
 			}
 		}
 
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/TestResult.hx:62: characters 5-16
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/TestResult.hx:62: characters 5-16
 		return true;
 	}
 }

@@ -15,27 +15,27 @@ class ReportTools {
 	 * @return bool
 	 */
 	static public function hasHeader ($report, $stats) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:7: characters 10-30
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:7: characters 10-30
 		$__hx__switch = ($report->displayHeader->index);
 		if ($__hx__switch === 0) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:22: characters 5-16
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:22: characters 5-16
 			return true;
 		} else if ($__hx__switch === 1) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:10: characters 5-17
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:10: characters 5-17
 			return false;
 		} else if ($__hx__switch === 2) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:12: lines 12-13
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:12: lines 12-13
 			if (!$stats->isOk) {
-				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:13: characters 6-17
+				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:13: characters 6-17
 				return true;
 			}
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:14: characters 12-40
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:14: characters 12-40
 			$__hx__switch = ($report->displaySuccessResults->index);
 			if ($__hx__switch === 1) {
-				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:17: characters 7-19
+				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:17: characters 7-19
 				return false;
 			} else if ($__hx__switch === 0 || $__hx__switch === 2) {
-				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:19: characters 7-18
+				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:19: characters 7-18
 				return true;
 			}
 		}
@@ -48,12 +48,12 @@ class ReportTools {
 	 * @return bool
 	 */
 	static public function hasOutput ($report, $stats) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:39: characters 3-31
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:39: characters 3-31
 		if (!$stats->isOk) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:39: characters 20-31
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:39: characters 20-31
 			return true;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:40: characters 3-34
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:40: characters 3-34
 		return ReportTools::hasHeader($report, $stats);
 	}
 
@@ -65,21 +65,21 @@ class ReportTools {
 	 * @return bool
 	 */
 	static public function skipResult ($report, $stats, $isOk) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:28: characters 3-32
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:28: characters 3-32
 		if (!$stats->isOk) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:28: characters 20-32
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:28: characters 20-32
 			return false;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:29: characters 17-45
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:29: characters 17-45
 		$__hx__switch = ($report->displaySuccessResults->index);
 		if ($__hx__switch === 0) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:32: characters 35-40
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:32: characters 35-40
 			return false;
 		} else if ($__hx__switch === 1) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:31: characters 34-38
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:31: characters 34-38
 			return true;
 		} else if ($__hx__switch === 2) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ReportTools.hx:33: characters 41-46
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ReportTools.hx:33: characters 41-46
 			return !$isOk;
 		}
 	}

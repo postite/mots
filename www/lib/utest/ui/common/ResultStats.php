@@ -78,37 +78,37 @@ class ResultStats {
 	 * @return void
 	 */
 	public function __construct () {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:26: characters 5-21
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:26: characters 5-21
 		$this->assertations = 0;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:27: characters 5-18
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:27: characters 5-18
 		$this->successes = 0;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:28: characters 5-17
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:28: characters 5-17
 		$this->failures = 0;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:29: characters 5-15
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:29: characters 5-15
 		$this->errors = 0;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:30: characters 5-17
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:30: characters 5-17
 		$this->warnings = 0;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:31: characters 5-16
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:31: characters 5-16
 		$this->ignores = 0;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:33: characters 5-16
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:33: characters 5-16
 		$this->isOk = true;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:34: characters 5-24
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:34: characters 5-24
 		$this->hasFailures = false;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:35: characters 5-22
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:35: characters 5-22
 		$this->hasErrors = false;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:36: characters 5-24
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:36: characters 5-24
 		$this->hasWarnings = false;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:37: characters 5-23
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:37: characters 5-23
 		$this->hasIgnores = false;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:39: characters 5-38
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:39: characters 5-38
 		$this->onAddSuccesses = new Dispatcher();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:40: characters 5-37
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:40: characters 5-37
 		$this->onAddFailures = new Dispatcher();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:41: characters 5-35
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:41: characters 5-35
 		$this->onAddErrors = new Dispatcher();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:42: characters 5-37
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:42: characters 5-37
 		$this->onAddWarnings = new Dispatcher();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:43: characters 5-36
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:43: characters 5-36
 		$this->onAddIgnores = new Dispatcher();
 	}
 
@@ -118,20 +118,20 @@ class ResultStats {
 	 * @return void
 	 */
 	public function addErrors ($v) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:63: characters 5-22
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:63: characters 5-22
 		if ($v === 0) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:63: characters 16-22
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:63: characters 16-22
 			return;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:64: characters 5-22
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:64: characters 5-22
 		$this->assertations += $v;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:65: characters 5-16
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:65: characters 5-16
 		$this->errors += $v;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:66: characters 5-27
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:66: characters 5-27
 		$this->hasErrors = $this->errors > 0;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:67: characters 5-54
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:67: characters 5-54
 		$this->isOk = !($this->hasFailures || $this->hasErrors || $this->hasWarnings);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:68: characters 5-28
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:68: characters 5-28
 		$this->onAddErrors->dispatch($v);
 	}
 
@@ -141,20 +141,20 @@ class ResultStats {
 	 * @return void
 	 */
 	public function addFailures ($v) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:54: characters 5-22
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:54: characters 5-22
 		if ($v === 0) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:54: characters 16-22
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:54: characters 16-22
 			return;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:55: characters 5-22
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:55: characters 5-22
 		$this->assertations += $v;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:56: characters 5-18
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:56: characters 5-18
 		$this->failures += $v;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:57: characters 5-31
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:57: characters 5-31
 		$this->hasFailures = $this->failures > 0;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:58: characters 5-54
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:58: characters 5-54
 		$this->isOk = !($this->hasFailures || $this->hasErrors || $this->hasWarnings);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:59: characters 5-30
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:59: characters 5-30
 		$this->onAddFailures->dispatch($v);
 	}
 
@@ -164,18 +164,18 @@ class ResultStats {
 	 * @return void
 	 */
 	public function addIgnores ($v) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:72: characters 5-23
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:72: characters 5-23
 		if ($v === 0) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:72: characters 17-23
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:72: characters 17-23
 			return;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:73: characters 5-22
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:73: characters 5-22
 		$this->assertations += $v;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:74: characters 5-17
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:74: characters 5-17
 		$this->ignores += $v;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:75: characters 5-29
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:75: characters 5-29
 		$this->hasIgnores = $this->ignores > 0;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:76: characters 5-29
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:76: characters 5-29
 		$this->onAddIgnores->dispatch($v);
 	}
 
@@ -185,16 +185,16 @@ class ResultStats {
 	 * @return void
 	 */
 	public function addSuccesses ($v) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:47: characters 5-22
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:47: characters 5-22
 		if ($v === 0) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:47: characters 16-22
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:47: characters 16-22
 			return;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:48: characters 5-22
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:48: characters 5-22
 		$this->assertations += $v;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:49: characters 5-19
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:49: characters 5-19
 		$this->successes += $v;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:50: characters 5-31
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:50: characters 5-31
 		$this->onAddSuccesses->dispatch($v);
 	}
 
@@ -204,20 +204,20 @@ class ResultStats {
 	 * @return void
 	 */
 	public function addWarnings ($v) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:80: characters 5-22
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:80: characters 5-22
 		if ($v === 0) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:80: characters 16-22
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:80: characters 16-22
 			return;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:81: characters 5-22
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:81: characters 5-22
 		$this->assertations += $v;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:82: characters 5-18
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:82: characters 5-18
 		$this->warnings += $v;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:83: characters 5-31
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:83: characters 5-31
 		$this->hasWarnings = $this->warnings > 0;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:84: characters 5-54
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:84: characters 5-54
 		$this->isOk = !($this->hasFailures || $this->hasErrors || $this->hasWarnings);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:85: characters 5-30
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:85: characters 5-30
 		$this->onAddWarnings->dispatch($v);
 	}
 
@@ -227,15 +227,15 @@ class ResultStats {
 	 * @return void
 	 */
 	public function subtract ($other) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:97: characters 5-35
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:97: characters 5-35
 		$this->addSuccesses(-$other->successes);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:98: characters 5-33
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:98: characters 5-33
 		$this->addFailures(-$other->failures);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:99: characters 5-29
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:99: characters 5-29
 		$this->addErrors(-$other->errors);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:100: characters 5-33
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:100: characters 5-33
 		$this->addWarnings(-$other->warnings);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:101: characters 5-31
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:101: characters 5-31
 		$this->addIgnores(-$other->ignores);
 	}
 
@@ -245,15 +245,15 @@ class ResultStats {
 	 * @return void
 	 */
 	public function sum ($other) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:89: characters 5-34
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:89: characters 5-34
 		$this->addSuccesses($other->successes);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:90: characters 5-32
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:90: characters 5-32
 		$this->addFailures($other->failures);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:91: characters 5-28
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:91: characters 5-28
 		$this->addErrors($other->errors);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:92: characters 5-32
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:92: characters 5-32
 		$this->addWarnings($other->warnings);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:93: characters 5-30
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:93: characters 5-30
 		$this->addIgnores($other->ignores);
 	}
 
@@ -263,17 +263,17 @@ class ResultStats {
 	 * @return void
 	 */
 	public function unwire ($dependant) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:114: characters 5-50
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:114: characters 5-50
 		$dependant->onAddSuccesses->remove(Boot::getInstanceClosure($this, 'addSuccesses'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:115: characters 5-48
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:115: characters 5-48
 		$dependant->onAddFailures->remove(Boot::getInstanceClosure($this, 'addFailures'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:116: characters 5-44
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:116: characters 5-44
 		$dependant->onAddErrors->remove(Boot::getInstanceClosure($this, 'addErrors'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:117: characters 5-48
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:117: characters 5-48
 		$dependant->onAddWarnings->remove(Boot::getInstanceClosure($this, 'addWarnings'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:118: characters 5-46
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:118: characters 5-46
 		$dependant->onAddIgnores->remove(Boot::getInstanceClosure($this, 'addIgnores'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:119: characters 5-24
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:119: characters 5-24
 		$this->subtract($dependant);
 	}
 
@@ -283,17 +283,17 @@ class ResultStats {
 	 * @return void
 	 */
 	public function wire ($dependant) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:105: characters 5-47
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:105: characters 5-47
 		$dependant->onAddSuccesses->add(Boot::getInstanceClosure($this, 'addSuccesses'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:106: characters 5-45
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:106: characters 5-45
 		$dependant->onAddFailures->add(Boot::getInstanceClosure($this, 'addFailures'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:107: characters 5-41
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:107: characters 5-41
 		$dependant->onAddErrors->add(Boot::getInstanceClosure($this, 'addErrors'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:108: characters 5-45
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:108: characters 5-45
 		$dependant->onAddWarnings->add(Boot::getInstanceClosure($this, 'addWarnings'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:109: characters 5-43
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:109: characters 5-43
 		$dependant->onAddIgnores->add(Boot::getInstanceClosure($this, 'addIgnores'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultStats.hx:110: characters 5-19
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultStats.hx:110: characters 5-19
 		$this->sum($dependant);
 	}
 }

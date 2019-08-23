@@ -7,10 +7,10 @@
 -main RunAll
 # -neko runall.n
 # -cmd neko runall.n
-#-js plo.js
-#-cmd node plo.js
+-js plo.js
+-cmd node plo.js
 #-x RunAll
 #--no-traces
--php www
+#-php www
 #-cmd open http://teststrings.local
 #--interp

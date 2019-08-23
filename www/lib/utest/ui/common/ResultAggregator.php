@@ -50,30 +50,30 @@ class ResultAggregator {
 	 * @return void
 	 */
 	public function __construct ($runner, $flattenPackage = false) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:16: lines 16-27
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:16: lines 16-27
 		if ($flattenPackage === null) {
 			$flattenPackage = false;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:17: characters 5-29
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:17: characters 5-29
 		if ($runner === null) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:17: characters 24-29
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:17: characters 24-29
 			throw new HxException("runner argument is null");
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:18: characters 5-41
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:18: characters 5-41
 		$this->flattenPackage = $flattenPackage;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:19: characters 5-25
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:19: characters 5-25
 		$this->runner = $runner;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:20: characters 5-30
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:20: characters 5-30
 		$runner->onStart->add(Boot::getInstanceClosure($this, 'start'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:21: characters 5-36
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:21: characters 5-36
 		$runner->onProgress->add(Boot::getInstanceClosure($this, 'progress'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:22: characters 5-36
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:22: characters 5-36
 		$runner->onComplete->add(Boot::getInstanceClosure($this, 'complete'));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:24: characters 5-29
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:24: characters 5-29
 		$this->onStart = new Notifier();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:25: characters 5-34
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:25: characters 5-34
 		$this->onComplete = new Dispatcher();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:26: characters 5-34
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:26: characters 5-34
 		$this->onProgress = new Dispatcher();
 	}
 
@@ -81,31 +81,31 @@ class ResultAggregator {
 	 * @return void
 	 */
 	public function checkNonITest () {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:36: characters 5-22
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:36: characters 5-22
 		$first = null;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:37: characters 5-19
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:37: characters 5-19
 		$total = 0;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:38: lines 38-46
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:38: lines 38-46
 		$_g = 0;
 		$_g1 = $this->runner->length;
 		while ($_g < $_g1) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:39: characters 7-42
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:39: characters 7-42
 			$fixture = $this->runner->getFixture($_g++);
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:40: lines 40-45
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:40: lines 40-45
 			if (!$fixture->isITest) {
-				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:41: characters 9-16
+				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:41: characters 9-16
 				++$total;
-				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:42: lines 42-44
+				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:42: lines 42-44
 				if ($first === null) {
-					#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:43: characters 11-67
+					#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:43: characters 11-67
 					$first = \Type::getClassName(\Type::getClass($fixture->target));
 				}
 			}
 		}
 
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:47: lines 47-55
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:47: lines 47-55
 		if ($total > 0) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:49: lines 49-53
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:49: lines 49-53
 			$msg = null;
 			if ($total === 1) {
 				$msg = "" . ($first??'null') . " doesn't " . "implement utest.ITest. Non-ITest tests are deprecated. Implement utest.ITest or extend utest.Test.";
@@ -114,7 +114,7 @@ class ResultAggregator {
 			} else {
 				$msg = "" . ($first??'null') . " and " . ($total??'null') . " others don't " . "implement utest.ITest. Non-ITest tests are deprecated. Implement utest.ITest or extend utest.Test.";
 			}
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:54: characters 7-12
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:54: characters 7-12
 			(Log::$trace)($msg, new HxAnon([
 				"fileName" => "utest/ui/common/ResultAggregator.hx",
 				"lineNumber" => 54,
@@ -130,12 +130,12 @@ class ResultAggregator {
 	 * @return void
 	 */
 	public function complete ($runner) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:96: lines 96-98
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:96: lines 96-98
 		if ($this->root->isEmpty) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:97: characters 7-51
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:97: characters 7-51
 			$this->root->addResult($this->createNoTestsResult(), false);
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:99: characters 5-30
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:99: characters 5-30
 		$this->onComplete->dispatch($this->root);
 	}
 
@@ -145,19 +145,19 @@ class ResultAggregator {
 	 * @return FixtureResult
 	 */
 	public function createFixture ($result) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:84: characters 5-46
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:84: characters 5-46
 		$f = new FixtureResult($result->method);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:85: characters 24-43
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:85: characters 24-43
 		$_g_head = $result->assertations->h;
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:85: lines 85-86
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:85: lines 85-86
 		while ($_g_head !== null) {
 			$val = $_g_head->item;
 			$_g_head = $_g_head->next;
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:86: characters 7-25
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:86: characters 7-25
 			$f->add($val);
 		}
 
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:87: characters 5-13
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:87: characters 5-13
 		return $f;
 	}
 
@@ -165,24 +165,24 @@ class ResultAggregator {
 	 * @return TestResult
 	 */
 	public function createNoTestsResult () {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:103: characters 5-35
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:103: characters 5-35
 		$result = new TestResult();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:104: characters 5-21
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:104: characters 5-21
 		$result->pack = "";
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:105: characters 5-20
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:105: characters 5-20
 		$result->cls = "";
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:106: characters 5-23
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:106: characters 5-23
 		$result->method = "";
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:107: characters 5-37
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:107: characters 5-37
 		$result->assertations = new List_hx();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:109: characters 5-64
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:109: characters 5-64
 		$result->assertations->add(Assertation::Failure("No tests executed.", new HxAnon([
 			"fileName" => "",
 			"lineNumber" => 1,
 			"className" => "utest.Runner",
 			"methodName" => "run",
 		])));
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:110: characters 5-18
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:110: characters 5-18
 		return $result;
 	}
 
@@ -195,16 +195,16 @@ class ResultAggregator {
 	 * @return ClassResult
 	 */
 	public function getOrCreateClass ($pack, $cls, $setup, $teardown) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:77: characters 5-56
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:77: characters 5-56
 		if ($pack->existsClass($cls)) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:77: characters 31-56
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:77: characters 31-56
 			return $pack->getClass($cls);
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:78: characters 5-51
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:78: characters 5-51
 		$c = new ClassResult($cls, $setup, $teardown);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:79: characters 5-21
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:79: characters 5-21
 		$pack->addClass($c);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:80: characters 5-13
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:80: characters 5-13
 		return $c;
 	}
 
@@ -216,40 +216,40 @@ class ResultAggregator {
 	 * @return PackageResult
 	 */
 	public function getOrCreatePackage ($pack, $flat, $ref = null) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:59: characters 5-31
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:59: characters 5-31
 		if ($ref === null) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:59: characters 21-31
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:59: characters 21-31
 			$ref = $this->root;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:60: characters 5-46
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:60: characters 5-46
 		if (($pack === null) || ($pack === "")) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:60: characters 36-46
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:60: characters 36-46
 			return $ref;
 		}
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:61: lines 61-73
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:61: lines 61-73
 		if ($flat) {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:62: lines 62-63
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:62: lines 62-63
 			if ($ref->existsPackage($pack)) {
-				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:63: characters 9-36
+				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:63: characters 9-36
 				return $ref->getPackage($pack);
 			}
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:64: characters 7-39
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:64: characters 7-39
 			$p = new PackageResult($pack);
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:65: characters 7-24
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:65: characters 7-24
 			$ref->addPackage($p);
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:66: characters 7-15
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:66: characters 7-15
 			return $p;
 		} else {
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:68: characters 7-35
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:68: characters 7-35
 			$parts = HxString::split($pack, ".");
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:69: lines 69-71
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:69: lines 69-71
 			$_g = 0;
 			while ($_g < $parts->length) {
-				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:70: characters 9-50
+				#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:70: characters 9-50
 				$ref = $this->getOrCreatePackage(($parts->arr[$_g++] ?? null), true, $ref);
 			}
 
-			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:72: characters 7-17
+			#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:72: characters 7-17
 			return $ref;
 		}
 	}
@@ -260,9 +260,9 @@ class ResultAggregator {
 	 * @return void
 	 */
 	public function progress ($e) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:91: characters 5-45
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:91: characters 5-45
 		$this->root->addResult($e->result, $this->flattenPackage);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:92: characters 5-27
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:92: characters 5-27
 		$this->onProgress->dispatch($e);
 	}
 
@@ -272,11 +272,11 @@ class ResultAggregator {
 	 * @return void
 	 */
 	public function start ($runner) {
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:30: characters 5-20
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:30: characters 5-20
 		$this->checkNonITest();
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:31: characters 5-35
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:31: characters 5-35
 		$this->root = new PackageResult(null);
-		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/aca590b256e0879cd7fbfcd47ca4f3a0a0ce1845/src/utest/ui/common/ResultAggregator.hx:32: characters 5-23
+		#/Users/ut/haxe/haxe_libraries/utest/1.9.5/github/031e6d47bf35ae55654eef5bd4dac8c07986ecfa/src/utest/ui/common/ResultAggregator.hx:32: characters 5-23
 		$this->onStart->dispatch();
 	}
 }

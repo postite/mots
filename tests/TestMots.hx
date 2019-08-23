@@ -14,7 +14,7 @@ class TestMots implements utest.ITest {
 
 	public function testUnderClean() {
 		var str = Mots.underclean(fileName);
-		Assert.equals("Caapture_d_ecra_n_2019_02u_04_a_17_27_05_pngCapatuaereee_d_ecraan_2019_02_04_a_17_27_05_png", str);
+		Assert.equals("Caapture_d_ecra_n_2019_02u_04_a_17_27_05_pngCapatuaereee_d_ecraan_2019_02_04_a_17_27_05_png", str,"not safe emoji");
 	}
 
     public function testcleanFile(){

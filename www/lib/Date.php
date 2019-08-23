@@ -17,6 +17,71 @@ final /**
  * milliseconds elapsed since 1st January 1970.
  */
 class Date {
+	/**
+	 * @var float
+	 */
+	public $__t;
+
+	/**
+	 * @param float $t
+	 * 
+	 * @return Date
+	 */
+	static public function fromPhpTime ($t) {
+		#/Users/ut/haxe/versions/4.0.0-rc.1/std/php/_std/Date.hx:80: characters 3-41
+		$d = new Date(2000, 1, 1, 0, 0, 0);
+		#/Users/ut/haxe/versions/4.0.0-rc.1/std/php/_std/Date.hx:81: characters 3-12
+		$d->__t = $t;
+		#/Users/ut/haxe/versions/4.0.0-rc.1/std/php/_std/Date.hx:82: characters 3-11
+		return $d;
+	}
+
+	/**
+	 * Returns a Date representing the current local time.
+	 * 
+	 * @return Date
+	 */
+	static public function now () {
+		#/Users/ut/haxe/versions/4.0.0-rc.1/std/php/_std/Date.hx:76: characters 3-48
+		return Date::fromPhpTime(round(microtime(true), 3));
+	}
+
+	/**
+	 * Creates a new date object from the given arguments.
+	 * The behaviour of a Date instance is only consistent across platforms if
+	 * the the arguments describe a valid date.
+	 * - month: 0 to 11
+	 * - day: 1 to 31
+	 * - hour: 0 to 23
+	 * - min: 0 to 59
+	 * - sec: 0 to 59
+	 * 
+	 * @param int $year
+	 * @param int $month
+	 * @param int $day
+	 * @param int $hour
+	 * @param int $min
+	 * @param int $sec
+	 * 
+	 * @return void
+	 */
+	public function __construct ($year, $month, $day, $hour, $min, $sec) {
+		#/Users/ut/haxe/versions/4.0.0-rc.1/std/php/_std/Date.hx:31: characters 3-53
+		$this->__t = mktime($hour, $min, $sec, $month + 1, $day, $year);
+	}
+
+	/**
+	 * Returns the timestamp (in milliseconds) of the date. It might
+	 * only have a per-second precision depending on the platforms.
+	 * For measuring time differences with millisecond accuracy on
+	 * all platforms, see `haxe.Timer.stamp`.
+	 * 
+	 * @return float
+	 */
+	public function getTime () {
+		#/Users/ut/haxe/versions/4.0.0-rc.1/std/php/_std/Date.hx:35: characters 3-22
+		return $this->__t * 1000.0;
+	}
 }
 
 Boot::registerClass(Date::class, 'Date');

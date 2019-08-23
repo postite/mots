@@ -197,6 +197,24 @@ class Mots {
 		#src/Mots.hx:8: characters 3-13
 		return $str;
 	}
+
+	/**
+	 * @return string
+	 */
+	static public function uuid () {
+		#src/Mots.hx:101: characters 3-36
+		$uid = new \StringBuf();
+		$a = 8;
+		#src/Mots.hx:102: characters 3-61
+		$uid->add(\StringTools::hex((int)(\Date::now()->getTime()), 8));
+		#src/Mots.hx:103: lines 103-108
+		while ($a++ < 36) {
+			#src/Mots.hx:104: lines 104-107
+			$uid->add(((($a * 51) & 52) !== 0 ? \StringTools::hex((($a ^ 15) !== 0 ? 8 ^ (int)((mt_rand() / mt_getrandmax() * ((($a ^ 20) !== 0 ? 16 : 4)))) : 4)) : "-"));
+		}
+		#src/Mots.hx:109: characters 10-38
+		return mb_strtolower($uid->b);
+	}
 }
 
 Boot::registerClass(Mots::class, 'Mots');
