@@ -94,6 +94,20 @@ trace( "strrrr"+str);
        Assert.equals("halloween",Mots.stripEmoj(hallo));
     }
 
+    public function testBetweenchars(){
+        var str="bim_bam_boum";
+        Assert.equals("bam",Mots.betweenChars(str,"_"));
+        
+
+    }
+
+    public function testDifferentBetweenchars(){
+        var str="./www/uploads/thumb/Screen_ateliernuenSlip.png";
+        Assert.equals("Screen",Mots.betweenDiffChars(str,"/","_"));
+        
+
+    }
+
     //ensure they are different
     public function testGuid(){
         var p=[];

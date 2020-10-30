@@ -70,6 +70,20 @@ class Mots {
 		r.match(str);
 		return r.matched(0);
 	}
+
+	public static function betweenChars(str:String,char:String):String{
+		
+		var r= new EReg('(?<='+char+')(.*?)(?='+char+')',"g") ; //match word between char and char
+		r.match(str);
+		return r.matched(1);
+	}
+
+	public static function betweenDiffChars(str:String,deb:String,end:String):String{
+		
+		var r= new EReg('([^'+deb+']*)('+end+')',"g") ; //match word between deb and end
+		r.match(str);
+		return r.matched(1);
+	}
   #if js 
 		
    
