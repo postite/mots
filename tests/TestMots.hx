@@ -103,6 +103,7 @@ trace( "strrrr"+str);
 
     public function testDifferentBetweenchars(){
         var str="./www/uploads/thumb/Screen_ateliernuenSlip.png";
+        var str="/uploads/thumb/Screen_Image_004.jpg";
         Assert.equals("Screen",Mots.betweenDiffChars(str,"/","_"));
         
 

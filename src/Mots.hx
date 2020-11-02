@@ -80,9 +80,10 @@ class Mots {
 
 	public static function betweenDiffChars(str:String,deb:String,end:String):String{
 		
-		var r= new EReg('([^'+deb+']*)('+end+')',"g") ; //match word between deb and end
+		//var r= new EReg('([^'+deb+']*)('+end+'){1}',"g") ; //match word between deb and end
+		var r= new EReg('([^'+deb+'])+?(?='+end+')',"g") ; //match word between deb and first end
 		r.match(str);
-		return r.matched(1);
+		return r.matched(0);
 	}
   #if js 
 		

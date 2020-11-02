@@ -230,9 +230,9 @@ Mots.betweenChars = function(str,char) {
 	return r.matched(1);
 };
 Mots.betweenDiffChars = function(str,deb,end) {
-	var r = new EReg("([^" + deb + "]*)(" + end + ")","g");
+	var r = new EReg("([^" + deb + "])+?(?=" + end + ")","g");
 	r.match(str);
-	return r.matched(1);
+	return r.matched(0);
 };
 Mots.stripEmoj = function(str) {
 	return str.replace(Mots.jsReg.r,"");
@@ -534,7 +534,7 @@ TestMots.prototype = {
 		utest_Assert.equals("bam",Mots.betweenChars("bim_bam_boum","_"),null,{ fileName : "tests/TestMots.hx", lineNumber : 99, className : "TestMots", methodName : "testBetweenchars"});
 	}
 	,testDifferentBetweenchars: function() {
-		utest_Assert.equals("Screen",Mots.betweenDiffChars("./www/uploads/thumb/Screen_ateliernuenSlip.png","/","_"),null,{ fileName : "tests/TestMots.hx", lineNumber : 106, className : "TestMots", methodName : "testDifferentBetweenchars"});
+		utest_Assert.equals("Screen",Mots.betweenDiffChars("/uploads/thumb/Screen_Image_004.jpg","/","_"),null,{ fileName : "tests/TestMots.hx", lineNumber : 107, className : "TestMots", methodName : "testDifferentBetweenchars"});
 	}
 	,testGuid: function() {
 		var p = [];
@@ -560,8 +560,8 @@ TestMots.prototype = {
 				var m = _g1++;
 				if(m != i1) {
 					var gu = p[m];
-					haxe_Log.trace("n=" + x1 + " gu=" + gu + " " + i1,{ fileName : "tests/TestMots.hx", lineNumber : 121, className : "TestMots", methodName : "testGuid"});
-					utest_Assert.isTrue(gu != x1,null,{ fileName : "tests/TestMots.hx", lineNumber : 122, className : "TestMots", methodName : "testGuid"});
+					haxe_Log.trace("n=" + x1 + " gu=" + gu + " " + i1,{ fileName : "tests/TestMots.hx", lineNumber : 122, className : "TestMots", methodName : "testGuid"});
+					utest_Assert.isTrue(gu != x1,null,{ fileName : "tests/TestMots.hx", lineNumber : 123, className : "TestMots", methodName : "testGuid"});
 				}
 			}
 			_g.push(x1);
