@@ -1,3 +1,4 @@
+using haxe.io.Path;
 class Mots {
 
 	//not emojiSafe
@@ -14,7 +15,7 @@ class Mots {
 		var extension = haxe.io.Path.extension(str);
 		str = haxe.io.Path.withoutExtension(str);
     str=stripEmoj(str);
-		str= underclean(str," ") + '.$extension';
+		str= underclean(str," ") + '.${cleanFile(extension)}';
     return camelize(str);
 
 	}
